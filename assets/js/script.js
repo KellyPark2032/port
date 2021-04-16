@@ -79,23 +79,65 @@ function backToTop() {
 }
 backToTop();
 
-// script
-$(document).on("click", ".clickBtn div", function () {
+// script1 clickbtn 
+$(document).on("click", ".script1 .clickBtn div", function () {
   var numberIndex = $(this).index();
 
   if (!$(this).is("active")) {
-    $(".clickBtn div").removeClass("active");
+    $(".script1 .clickBtn div").removeClass("active");
     // $(".clickBtn div button").text('VIEW CODE');
-    $("#script .nacc li").removeClass("active");
+    $(".script1 .nacc li").removeClass("active");
 
     $(this).addClass("active");
-    $("#script .nacc")
+    $(".script1 .nacc")
       .find("li:eq(" + numberIndex + ")")
       .addClass("active");
 
-    var listItemHeight = $("#script .nacc")
+    var listItemHeight = $(".script1 .nacc")
       .find("li:eq(" + numberIndex + ")")
       .innerHeight();
-    $("#script .nacc").height(listItemHeight + "px");
+    $(".script1 .nacc").height(listItemHeight + "px");
+  }
+});
+
+// script2 clickbtn 
+$(document).on("click", ".script2 .clickBtn div", function () {
+  var numberIndex = $(this).index();
+
+  if (!$(this).is("active")) {
+    $(".script2 .clickBtn div").removeClass("active");
+    // $(".clickBtn div button").text('VIEW CODE');
+    $(".script2 .nacc li").removeClass("active");
+
+    $(this).addClass("active");
+    $(".script2 .nacc")
+      .find("li:eq(" + numberIndex + ")")
+      .addClass("active");
+
+    var listItemHeight = $(".script2 .nacc")
+      .find("li:eq(" + numberIndex + ")")
+      .innerHeight();
+    $(".script2 .nacc").height(listItemHeight + "px");
+  }
+});
+
+// script3 clickbtn 
+$(document).on("click", ".script3 .clickBtn div", function () {
+  var numberIndex = $(this).index();
+
+  if (!$(this).is("active")) {
+    $(".script3 .clickBtn div").removeClass("active");
+    // $(".clickBtn div button").text('VIEW CODE');
+    $(".script3 .nacc li").removeClass("active");
+
+    $(this).addClass("active");
+    $(".script3 .nacc")
+      .find("li:eq(" + numberIndex + ")")
+      .addClass("active");
+
+    var listItemHeight = $(".script3 .nacc")
+      .find("li:eq(" + numberIndex + ")")
+      .innerHeight();
+    $(".script3 .nacc").height(listItemHeight + "px");
   }
 });
