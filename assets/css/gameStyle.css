@@ -14,10 +14,26 @@
 
 @media (max-width: 768px){
     .home-wrap { width: 100%; height: 70vw; } 
+    .star2 {display: none;}
+    .triangle2 {display: none;}
+    .circle2 {display: none;}
+    .circle3 {left: 23.5vw;}
+    .square2 {display: none;}
+    #section8 .wideBox2 .square { display: none;} 
+    #section8 .square3 {display: block; } 
+    #section9 .wideBox2 .square {display: none;}
+    #section10 .square3 {display: block; } 
+    #section10 .animate-card:nth-child(2n+1) .square {display: none;}
+    #section11 .animate-card:nth-child(2n+1) .square {display: none;}
+    .triangle1 {display: block;}
     .home-card { height: 44%; } 
     .star-mid { left: 49.1%; } 
+    #worksCon .triangle4 {display: none;}
+    #worksCon .triangle4 {display: none;}
+    #animateCon .square4 {display: none;}
     #section1 .smile img { width: 45%; } 
     .home-card:nth-child(2n+1) .lineLeft { display: none; } 
+    .memory-game {height: 36.2vw;}
     .memory-card2:nth-child(2n+1) .lineLeft { display: none; } 
     .memory-card2:nth-child(2n+1) .circle { display: none; } 
     .home-card:nth-child(2n+1) .star { display: none; } 
@@ -66,10 +82,12 @@
     .clickBtn div:nth-child(1) {margin-right: 10%;}
     .scriptInner h3 {text-align: center;  line-height: 5vw; font-size: 5vw; margin-bottom: 8vw; margin-right: 0vw;}
     .scriptInner p {text-align: justify; width: 50%; font-size: 2vw; bottom: 5vw;}
+    .script2 .scriptInner p {text-align: justify; width: 50%; font-size: 2vw; bottom: 3vw;}
     .animateWrap {width: 100%; height: 35vw;}
     .animateWrap .animate-card:nth-child(2n+1) .lineLeft {display: none;}
     .animateWrap .wideBox2 .lineLeft {display: none;}
     .animateWrap .chrc p {font-size: 1.6vw; bottom: 3vw;}
+    #section8 {}
     #section12 .contact {width: 65%; padding: 15% 10%;}
     #section12 .contact .smile {width: 6.5vw; height: 6.5vw; top: 5.5vw;}
     #section12 .contact .smileIcon {width: 6vw; height: 6vw;}

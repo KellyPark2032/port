@@ -83,11 +83,16 @@ body { background: #F8F4F0; overflow-x: hidden; border-top: 1px solid #000; }
 /* .triangle */
 .triangle { z-index: 101; position: absolute; width: 2vw; height: 2vw; bottom: -1vw; left: -0.9vw; } 
 .triangle span { position: absolute; width: inherit; height: inherit; background: url(../images/Polygon\ 8.svg) center no-repeat; background-size: 40%; } 
-.triangle1 { z-index: 101; position: absolute; width: 2vw; height: 2vw; bottom: -1vw; left: 46.2%; transform: translateX(46.5%); } 
+.triangle1 { display: none; z-index: 101; position: absolute; width: 2vw; height: 2vw; bottom: -1vw; left: 46.2%; transform: translateX(46.5%); } 
 .triangle1 span { position: absolute; width: inherit; height: inherit; background: url(../images/Polygon\ 8.svg) center no-repeat; background-size: 40%; } 
 .triangle-top { z-index: 101; position: absolute; width: 2vw; height: 2vw; left: -0.9vw; bottom: 46%; transform: translateY(-46%); } 
 .triangle2 { z-index: 101; position: absolute; width: 2vw; height: 2vw; bottom: -1vw; right: 0vw; } 
 .triangle2 span { position: absolute; width: inherit; height: inherit; background: url(../images/Polygon\ 8.svg) center no-repeat; background-size: 40%; } 
+.triangle4 { z-index: 101; position: absolute; width: 2vw; height: 2vw; bottom: -1vw; left: 33.3%; transform: translate(-40%); } 
+.triangle4 span { position: absolute; width: inherit; height: inherit; background: url(../images/Polygon\ 8.svg) center no-repeat; background-size: 40%; } 
+.triangle5 { z-index: 101; position: absolute; width: 2vw; height: 2vw; bottom: -1vw; left: 66.5%; transform: translate(-40%); } 
+.triangle5 span { position: absolute; width: inherit; height: inherit; background: url(../images/Polygon\ 8.svg) center no-repeat; background-size: 40%; } 
+
 
 /* content (front and back) */
 .content { width: 70%; height: 70%; position: relative; perspective: 1000px; } 
@@ -199,6 +204,10 @@ button.learn-more::before { position: absolute; content: ""; top: 0; left: 0; ri
 .square2 span { position: absolute; width: inherit; height: inherit; background: url(../images/square.svg) center no-repeat; background-size: 30%; } 
 .square3 { z-index: 101; position: absolute; width: 2vw; height: 2vw; bottom: -1vw; left: 50%; transform: translate(-45%); } 
 .square3 span { position: absolute; width: inherit; height: inherit; background: url(../images/square.svg) center no-repeat; background-size: 30%; } 
+.square4 { z-index: 101; position: absolute; width: 2vw; height: 2vw; bottom: -1vw; left: 33.3%; transform: translate(-45%); } 
+.square4 span { position: absolute; width: inherit; height: inherit; background: url(../images/square.svg) center no-repeat; background-size: 30%; } 
+.square5 { z-index: 101; position: absolute; width: 2vw; height: 2vw; bottom: -1vw; left: 66.5%; transform: translate(-45%); } 
+.square5 span { position: absolute; width: inherit; height: inherit; background: url(../images/square.svg) center no-repeat; background-size: 30%; } 
 
 .clickBtn { display: flex; position: absolute; bottom: -7.5vw; line-height: 1.5; align-items: center; justify-content: center; } 
 .clickBtn div { width: 45%; } 
@@ -262,18 +271,15 @@ ul.nacc li#tab2 { overflow: scroll; width: 102%; height: 38vw; }
 .tab_content::after { z-index: 100; content: ''; display: block; position: absolute; bottom: 0; right: 0; width: 1px; height: 100%; background: #000; transition: height 1s cubic-bezier(0.22, 1, 0.36, 1); } 
 .tabMenu::after { z-index: 100; content: ''; display: block; position: absolute; bottom: 0; right: 0; width: 100%; height: 1px; background: #000; transition: height 1s cubic-bezier(0.22, 1, 0.36, 1); } 
 
-/* section8 */
-#section8 .left .chrc h3 span.icon1 { background: url(../images/arrow1.svg) bottom center no-repeat; background-size: 1.5vw; } 
+/* Animations */
+#animateCon .chrc h3 span.icon1 { background: url(../images/arrow3.svg) bottom 1px center no-repeat; background-size: 1.5vw; } 
 #section8 .effect { background-color: #f4f2fb; } 
-/* section9 */
-#section9 .effect { background-color: #f5b9b2; } EED36B
-
-/* section10 */
+#section8 .square { display: block;} 
+#section8 .square3 {display: none; } 
+#section9 .effect { background-color: #f5b9b2; }
 #section10 .effect_left { background-color: #DFE7F7; } 
-
-/* section11 */
-#section11 .effect_left { background-color: #f1edd0; } /* #95ABA1; */
-#section11 .right .chrc h3 span.icon1 { background: url(../images/arrow3.svg) bottom 0.1vw center no-repeat; background-size: 1.5vw; } 
+#section10 .square3 {display: none; } 
+#section11 .effect_left { background-color: #f1edd0; }
 #section11 .lineBottom::before { display: none; } 
 
 /* section12 */
