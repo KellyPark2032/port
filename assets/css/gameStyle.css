@@ -1,0 +1,94 @@
+/* @media */
+@media screen and (max-width: 1290px) { } 
+
+@media screen and (max-width: 1024px) { } 
+
+@media screen and (max-width: 960px){
+ .chrc h3.animation { bottom: 8.5vw; } 
+ }
+
+@media screen and (max-width: 840px){
+ .chrc h3.animation { bottom: 10vw; } 
+ .chrc p { letter-spacing: -0.1vw; } 
+ }
+
+@media (max-width: 768px){
+    .home-wrap { width: 100%; height: 70vw; } 
+    .home-card { height: 44%; } 
+    .star-mid { left: 49.1%; } 
+    #section1 .smile img { width: 45%; } 
+    .home-card:nth-child(2n+1) .lineLeft { display: none; } 
+    .memory-card2:nth-child(2n+1) .lineLeft { display: none; } 
+    .memory-card2:nth-child(2n+1) .circle { display: none; } 
+    .home-card:nth-child(2n+1) .star { display: none; } 
+    .home-card:nth-child(2n+1) .star { display: none; } 
+    .smallChrc:nth-child(2n+1) .lineLeft { display: none; } 
+    .smallChrc:nth-child(2n+1) .star { display: none; } 
+    .memory-card2:nth-child(2n+1) .star { display: none; } 
+    .goLeft .star { display: none; } 
+    .wrap2 { width: 100%; height: 68vw; } 
+    .chrc h3 { line-height: 3.5vw; font-size: 2.5vw; } 
+    .chrc p { line-height: 2.5vw; font-size: 1vw; letter-spacing: 0vw; } 
+    .wideBox2 .photo { width: 101%; height: 100%; top: 1vw; left: 0; } 
+    .vertical small { margin-top: 1.2vw; } 
+    .riw_vertical small {margin-top: -2vw;}
+    .goRight { order: 2; } 
+    .goLeft { order: 1; } 
+    .star-top {display: none;}
+    #script .content_wrap {width:100%;}
+    #script .wrappingSmall {width:100%;}
+    #script .wrappingSmall .triangle {display:none;}
+    #script .wrappingSmall .lineLeft {display: none;}
+    #script .tabMenu {width: 70%;}
+    .backBehind {height: 110%;}
+    .wrap { width: 50%; height: 36vw; } 
+    .wrap .memory-card { width: 46vw; height: 46vw; transform: scale(1); } 
+    .wrap .memory-card .front-face { left: 25%; top: 28%; width: 20vw; height: 20vw; } 
+    .wrap .memory-card .back-face { left: 35%; top: 30%; } 
+    .wrap3 .lineLeft { display: none; } 
+    .wrap7 .lineLeft { display: none; } 
+    .wrap3 .triangle { display: none; } 
+    .wrap7 .triangle { display: none; } 
+    .rightWrap .circle-top { display: none; } 
+    .rightWrap .circle { display: none; } 
+    .rightWrap .minLineBtm2 { display: none; } 
+    .rightWrap .lineLeft { display: none; } 
+    .rightWrap .circle2 { right: 47.8vw; } 
+    .rightWrap .minLineLeft::before { width: 1px; } 
+    .rightWrap .minLineLeft::after { width: 1px; } 
+    .leftWrap .minLineLeft::before { width: 1px; } 
+    .leftWrap .minLineLeft::after { width: 1px; } 
+    .leftWrap .circle3 { width: 2vw; left: 48vw; } 
+    .content_wrap .circle3 {display: none;}
+    .content_wrap .minLineLeft {display: none;}
+    .clickBtn .light {font-size: 2vw; padding: 0.5vw 2vw;}
+    .clickBtn div {width: 40%;}
+    .clickBtn div:nth-child(1) {margin-right: 10%;}
+    .scriptInner h3 {text-align: center;  line-height: 5vw; font-size: 5vw; margin-bottom: 8vw; margin-right: 0vw;}
+    .scriptInner p {text-align: justify; width: 50%; font-size: 2vw; bottom: 5vw;}
+    .animateWrap {width: 100%; height: 35vw;}
+    .animateWrap .animate-card:nth-child(2n+1) .lineLeft {display: none;}
+    .animateWrap .wideBox2 .lineLeft {display: none;}
+    .animateWrap .chrc p {font-size: 1.6vw; bottom: 3vw;}
+    #section12 .contact {width: 65%; padding: 15% 10%;}
+    #section12 .contact .smile {width: 6.5vw; height: 6.5vw; top: 5.5vw;}
+    #section12 .contact .smileIcon {width: 6vw; height: 6vw;}
+    #section12 .contact .contactForm .formFont {font-size: 1.5vw;}
+    #section12 .contact .contactForm input {height: 4.5vw; font-size: 1.5vw;}
+    #section12 .contact .contactForm .submitBtn {width: 10vw; height: 4vw; font-size: 1.5vw;}
+    #section12 .info {width: 50%;}
+    #section12 .info h2 {font-size: 3vw;}
+    #section12 .info h2 span {width: 10vw; height: 6vw; background-size: contain;}
+    #section12 .info .myinfo li {font-size: 2vw;}
+    footer { margin-bottom: 3vw; }
+    footer address {font-size: 1.5vw; padding-bottom: 0.5vw;}
+
+}
+
+@media (max-width: 600px) { } 
+
+@media (max-width: 480px) { } 
+
+@media (max-width: 320px) { } 
+
+
