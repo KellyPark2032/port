@@ -30,12 +30,36 @@ pre[class*="language-"] {
 	hyphens: none;
 }
 @media (max-width: 768px){
-	code[class*="language-"],
+	.code-toolbar code[class*="language-"],
 	pre[class*="language-"]{ 
 		font-size: 1vw;
 	}
 	pre[class*="language-"].line-numbers > code {
 		left: -13vw;
+	}
+}
+@media (max-width: 600px){
+	.code-toolbar code[class*="language-"],
+	pre[class*="language-"]{ 
+		font-size: 1vw;
+	}
+	.code-toolbar pre[class*="language-"].line-numbers > code {
+		left: -18vw;
+	}
+	.code-toolbar pre[class*="language-"]{
+		height: 42.5vw;
+	}
+}
+@media (max-width: 480px){
+	.code-toolbar code[class*="language-"],
+	pre[class*="language-"]{ 
+		font-size: 1vw;
+	}
+	.code-toolbar pre[class*="language-"].line-numbers > code {
+		left: -21vw;
+	}
+	.code-toolbar pre[class*="language-"]{
+		height: 52vw;
 	}
 }
 code[class*="language-"] {

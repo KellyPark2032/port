@@ -43,10 +43,7 @@
 [dir='rtl'] .slick-slide
  {
  float: right; } 
- @media (max-width: 768px){
-    .slick-list {left: 0; height: 66vw;}
-    
- }
+ 
 .slick-slide img
  {
  display: block; } 
@@ -85,3 +82,16 @@ text-indent: -9999px; }
 .slider li.slick-active button {background-color: rgb(255, 215, 83); }
 
 .leftWrap .wideBox2 .slick-list {left: 0; width: 102%;}
+
+@media (max-width: 768px){
+    .slick-list {left: 0; height: 66vw;}
+    
+ }
+ @media (max-width: 600px){
+    .slick-list {height: 76vw;}
+    
+ }
+ @media (max-width: 480px){
+    .slick-list {height: 88vw;}
+    
+ }
