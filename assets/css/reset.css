@@ -7,6 +7,17 @@ textarea, button, form, figure, figcaption {
     margin: 0; padding: 0; 
 } 
 
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #F8F4F0;
+    overflow-x: hidden;
+    border-top: 1px solid #000;
+}
+
 *,
 *::after,
 *::before { box-sizing: border-box; } 
