@@ -1,5 +1,6 @@
 /* layout */
 * { margin: 0; padding: 0; } 
+
 body { background: #F8F4F0; overflow-x: hidden; border-top: 1px solid #000; } 
 .mainContainer { width: 100%; height: auto; display: flex; flex-direction: row; flex-wrap: wrap; justify-content: space-between; perspective: 500px; } 
 .container { position: absolute; box-sizing: border-box; font-weight: 200; width: 100%; height: 20%; color: #111; left: 2vw; bottom: 2vw; } 
@@ -7,7 +8,7 @@ body { background: #F8F4F0; overflow-x: hidden; border-top: 1px solid #000; }
 .wrap2 { position: relative; display: flex; flex-direction: row; justify-content: space-between; flex-flow: wrap; width: 50%; height: 48vw; box-sizing: border-box; } 
 .script2Wrap { position: relative; display: flex; flex-direction: row; justify-content: space-between; flex-flow: wrap; width: 25%; height: 48%; box-sizing: border-box; } 
 .animateWrap { position: relative; display: flex; flex-direction: row; justify-content: space-between; flex-flow: wrap; width: 50%; height: 24vw; box-sizing: border-box; } 
-.effect { position: absolute; top: 1vw; left: -1vw; width: calc(100% + 1vw); height: 100%;} 
+.effect { position: absolute; top: 1vw; left: -1vw; width: calc(100% + 1vw); height: 100%; } 
 .effect_left { position: absolute; top: 1vw; width: calc(100% + 1vw); height: 100%; } 
 .home-wrap { position: relative; display: flex; flex-direction: row; justify-content: space-between; flex-flow: wrap; width: 50%; height: 52vw; box-sizing: border-box; } 
 .wideBox2 { width: 100%; height: 100%; transform: scale(1); } 
@@ -23,7 +24,7 @@ body { background: #F8F4F0; overflow-x: hidden; border-top: 1px solid #000; }
 .wrappingSmall { position: relative; display: flex; flex-direction: row; justify-content: space-between; flex-flow: wrap; width: 25%; height: 48vw; box-sizing: border-box; } 
 .skillCard { position: relative; width: 100%; height: 100%; transform: scale(1); transform-style: preserve-3d; transition: transform .5s; top: -10px; } 
 .scriptInner { display: flex; position: absolute; width: 100%; height: 70%; justify-content: center; align-items: center; } 
-.scriptInner h3 { display: flex; position: absolute; font-size: 3vw; margin-bottom: 3vw; margin-right: 4vw;} 
+.scriptInner h3 { display: flex; position: absolute; font-size: 3vw; margin-bottom: 3vw; margin-right: 3vw; } 
 .scriptInner p { display: flex; width: 65%; position: absolute; font-size: 1.2vw; text-align: justify; bottom: 2vw; margin-top: 5%; } 
 
 /* skip */
@@ -60,10 +61,13 @@ body { background: #F8F4F0; overflow-x: hidden; border-top: 1px solid #000; }
 .star-mid span { position: absolute; width: inherit; height: inherit; background: url(../images/Star\ 22.svg) center no-repeat; background-size: 50%; } 
 
 /* section1 */
+
 #section1 .title { position: absolute; bottom: 4vw; } 
 #section1 .title h2 { padding-left: 2vw; font-family: Poppins; font-weight: 800; font-size: 6vw; color: #fff; text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
  1px 1px 0 #000; } 
+ #section1 .title h2 span { opacity: 0; transform: translateY(-100px); display: inline-block; } 
 #section1 .title strong { color: #000; font-family: Poppins; font-weight: 800; display: block; font-size: 16vw; padding-left: 1vw; line-height: 70%; } 
+#section1 .title strong span { opacity: 0; transform: translateY(-100px); display: inline-block; } 
 #section1 .smile img { display: block; margin: 3vw auto; width: 60%; animation: rotateIcon 10s linear infinite; transform-origin: 50% 50%; } 
 @keyframes rotateIcon { 100% { transform: rotate(-360deg); } 
  }
@@ -77,6 +81,7 @@ body { background: #F8F4F0; overflow-x: hidden; border-top: 1px solid #000; }
 .smallChrc .lineCenter { z-index: 10; width: calc(100% + 1vw); height: 1px; background: #000; position: absolute; display: block; left: -1vw; top: 0; } 
 
 /* section2 */ 
+
 #section2 .chrc h3 .icon1 { background: url(../images/arrow1.svg) bottom center no-repeat; background-size: 1.5vw; } 
 #section2 .chrc h3 .icon2 { background: url(../images/award-48\ 1.png) center center no-repeat; background-size: 2vw; } 
 
@@ -101,6 +106,22 @@ body { background: #F8F4F0; overflow-x: hidden; border-top: 1px solid #000; }
 .content:hover .front-area { opacity: 0; transform: rotateY(-90deg); } 
 .content:hover .back-area { opacity: 100%; transform: rotateY(0deg); } 
 /* .chrc */
+#section2 .chrc .reveal {width: 100%; height: 100%; opacity: 0; transform: translateY(-80px); display: inline-block;}
+#section3 .chrc .reveal {width: 100%; height: 100%; opacity: 0; transform: translateY(-80px); display: inline-block;}
+#worksCon .chrc .reveal {width: 100%; height: 100%; opacity: 0; transform: translateY(-80px); display: inline-block;}
+#section4 .chrc .reveal {width: 100%; height: 100%; opacity: 0; transform: translateY(-80px); display: inline-block;}
+#section5 .chrc .reveal {width: 100%; height: 100%; opacity: 0; transform: translateY(-80px); display: inline-block;}
+#section6 .chrc .reveal {width: 100%; height: 100%; opacity: 0; transform: translateY(-80px); display: inline-block;}
+#section7 .chrc .reveal {width: 100%; height: 100%; opacity: 0; transform: translateY(-80px); display: inline-block;}
+#ScriptsCon .chrc .reveal {width: 100%; height: 100%; opacity: 0; transform: translateY(-80px); display: inline-block;}
+#animateCon .chrc .reveal {width: 100%; height: 100%; opacity: 0; transform: translateY(-80px); display: inline-block;}
+#section8 .chrc .reveal {width: 100%; height: 100%; opacity: 0; transform: translateY(-80px); display: inline-block;}
+#section9 .chrc .reveal {width: 100%; height: 100%; opacity: 0; transform: translateY(-80px); display: inline-block;}
+#section10 .chrc .reveal {width: 100%; height: 100%; opacity: 0; transform: translateY(-80px); display: inline-block;}
+#section11 .chrc .reveal {width: 100%; height: 100%; opacity: 0; transform: translateY(-80px); display: inline-block;}
+#section12 .reveal form {width: 100%; height: 100%; opacity: 0; transform: translateY(-80px); display: inline-block;}
+#section12 .reveal .info1 {width: 100%; height: 100%; opacity: 0; transform: translateX(-80px); display: inline-block;}
+#section12 .reveal .info2 {width: 100%; height: 100%; opacity: 0; transform: translateX(80px); display: inline-block;}
 .chrc { position: relative; display: flex; width: 100%; height: 100%; left: 0vw; top: 0vw; align-items: center; justify-content: center; } 
 .chrc img { position: absolute; width: 50%; top: 48%; left:50%; transform: translate(-48%, -50%); } 
 .chrc h3 { position: absolute; left: 3vw; bottom: 2vw; z-index: 1; font-size: 2vw; line-height: 2.5vw; } 
@@ -274,12 +295,12 @@ ul.nacc li#tab2 { overflow: scroll; width: 102%; height: 38vw; }
 /* Animations */
 #animateCon .chrc h3 span.icon1 { background: url(../images/arrow3.svg) bottom 1px center no-repeat; background-size: 1.5vw; } 
 #section8 .effect { background-color: #f4f2fb; } 
-#section8 .square { display: block;} 
-#section8 .square3 {display: none; } 
-#section9 .effect { background-color: #f5b9b2; }
+#section8 .square { display: block; } 
+#section8 .square3 { display: none; } 
+#section9 .effect { background-color: #f5b9b2; } 
 #section10 .effect_left { background-color: #DFE7F7; } 
-#section10 .square3 {display: none; } 
-#section11 .effect_left { background-color: #f1edd0; }
+#section10 .square3 { display: none; } 
+#section11 .effect_left { background-color: #f1edd0; } 
 #section11 .lineBottom::before { display: none; } 
 
 /* section12 */
@@ -297,10 +318,10 @@ ul.nacc li#tab2 { overflow: scroll; width: 102%; height: 38vw; }
 /* #section12.active .left h2 { opacity: 1; transform: translateX(0%); } 
 #section12.active .left .myinfo { opacity: 1; transform: translateY(0%); } 
 #section12.active .right .contact { opacity: 1; margin-top:0; } */
-#section12 .info { display: flex; flex-wrap: wrap; margin: 3vw auto; flex-direction: row; width: 40%; } 
+#section12 .info { display: flex; flex-wrap: wrap; margin: 3vw auto; flex-direction: row; width: 39%; } 
 #section12 .info .info1 { display:flex; flex-basis: 50%; justify-content: center; padding-left: 2%; } 
 #section12 .info .info2 { display:flex; flex-basis: 50%; justify-content: center; padding-right: 2%; } 
-#section12 .info h2 { margin-bottom: 80px; font-size: 2.5vw; /* opacity: 0; transform: translateX(-20%); transition: 1s ease-in-out; */ } 
+#section12 .info h2 {width: 22vw; margin-bottom: 80px; font-size: 2.5vw; /* opacity: 0; transform: translateX(-20%); transition: 1s ease-in-out; */ } 
 #section12 .info h2 span { width: 8vw; height: 5vw; background: url(../images/balloon.png) no-repeat; display: inline-block; background-size: 8vw; } 
 
 /* #section12 .info .myinfo { opacity: 0; transform: translateY(45%); transition: 1s 0.5s ease-in-out; } */

@@ -141,3 +141,67 @@ $(document).on("click", ".script3 .clickBtn div", function () {
     $(".script3 .nacc").height(listItemHeight + "px");
   }
 });
+
+/* text animation */
+ $(".split").each(function() {
+  let text = $(this).text();
+  let split = text.split("").join("</span><span aria-hidden='true'>");
+  split = "<span aria-hidden='true'>" + split + "</span>";
+  $(this).html(split).attr("aria-label", text);
+});
+
+setTimeout(() => {
+  gsap.to("#section1 .title h2 span", { duration: 1,  opacity:1, stagger:0.03,  rotate:0, delay:0.05, ease: Sine.easeOut,x:0, y: 0});
+  gsap.to("#section1 .title strong span", { duration: 1,  opacity:1, stagger:0.03,  rotate:0, delay:0.05, ease: Sine.easeOut,x:0, y: 0});
+}, 2000);
+
+
+$(window).scroll(function(){
+      let scroll = $(window).scrollTop();
+      console.log(scroll)
+  
+  if ( scroll > $('#section2').offset().top-750){
+    gsap.to("#section2 .chrc .reveal", { duration: 1,  opacity:1, stagger:0.03,  rotate:0, delay:0.2, ease: Sine.easeOut,x:0, y: 0});
+  }
+  if( scroll > $('#section3').offset().top-250){
+      gsap.to("#section3 .chrc .reveal", { duration: 1,  opacity:1, stagger:0.03,  rotate:0, delay:0.2, ease: Sine.easeOut,x:0, y: 0});
+    };
+  if( scroll > $('#worksCon').offset().top-250){
+    gsap.to("#worksCon .chrc .reveal", { duration: 1,  opacity:1, stagger:0.03,  rotate:0, delay:0.2, ease: Sine.easeOut,x:0, y: 0});
+  };
+  if( scroll > $('#section4').offset().top-250){
+    gsap.to("#section4 .chrc .reveal", { duration: 1,  opacity:1, stagger:0.03,  rotate:0, delay:0.2, ease: Sine.easeOut,x:0, y: 0});
+  };
+  if( scroll > $('#section5').offset().top-250){
+    gsap.to("#section5 .chrc .reveal", { duration: 1,  opacity:1, stagger:0.03,  rotate:0, delay:0.2, ease: Sine.easeOut,x:0, y: 0});
+  };
+  if( scroll > $('#section6').offset().top-250){
+    gsap.to("#section6 .chrc .reveal", { duration: 1,  opacity:1, stagger:0.03,  rotate:0, delay:0.2, ease: Sine.easeOut,x:0, y: 0});
+  };
+  if( scroll > $('#section7').offset().top-250){
+    gsap.to("#section7 .chrc .reveal", { duration: 1,  opacity:1, stagger:0.03,  rotate:0, delay:0.2, ease: Sine.easeOut,x:0, y: 0});
+  };
+  if( scroll > $('#ScriptsCon').offset().top-250){
+    gsap.to("#ScriptsCon .chrc .reveal", { duration: 1,  opacity:1, stagger:0.03,  rotate:0, delay:0.2, ease: Sine.easeOut,x:0, y: 0});
+  };
+  if( scroll > $('#animateCon').offset().top-250){
+    gsap.to("#animateCon .chrc .reveal", { duration: 1,  opacity:1, stagger:0.03,  rotate:0, delay:0.2, ease: Sine.easeOut,x:0, y: 0});
+  };
+  if( scroll > $('#section8').offset().top-250){
+    gsap.to("#section8 .chrc .reveal", { duration: 1,  opacity:1, stagger:0.03,  rotate:0, delay:0.2, ease: Sine.easeOut,x:0, y: 0});
+  };
+  if( scroll > $('#section9').offset().top-350){
+    gsap.to("#section9 .chrc .reveal", { duration: 1,  opacity:1, stagger:0.03,  rotate:0, delay:0.2, ease: Sine.easeOut,x:0, y: 0});
+  };
+  if( scroll > $('#section10').offset().top-350){
+    gsap.to("#section10 .chrc .reveal", { duration: 1,  opacity:1, stagger:0.03,  rotate:0, delay:0.2, ease: Sine.easeOut,x:0, y: 0});
+  };
+  if( scroll > $('#section11').offset().top-350){
+    gsap.to("#section11 .chrc .reveal", { duration: 1,  opacity:1, stagger:0.03,  rotate:0, delay:0.2, ease: Sine.easeOut,x:0, y: 0});
+  };
+  if( scroll > $('#section12').offset().top-350){
+    gsap.to("#section12 .reveal form", { duration: 1,  opacity:1, stagger:0.03,  rotate:0, delay:0.2, ease: Sine.easeOut,x:0, y: 0});
+    gsap.to("#section12 .reveal .info1", { duration: 1,  opacity:1, stagger:0.03,  rotate:0, delay:1.2, ease: Sine.easeOut,x:0, y: 0});
+    gsap.to("#section12 .reveal .info2", { duration: 1,  opacity:1, stagger:0.03,  rotate:0, delay:1.2, ease: Sine.easeOut,x:0, y: 0});
+  };
+});
