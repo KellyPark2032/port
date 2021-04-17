@@ -179,7 +179,7 @@
     .animateWrap {height: 48vw;}
     .scriptInner h3 {font-size: 6.5vw; line-height: 8vw; margin-bottom: 18vw;}
     .scriptInner h3 br {display: none;}
-    .scriptInner p {width: 55%; font-size: 2.8vw; line-height: 4vw; bottom: 7vw;}
+    .scriptInner p {width: 55%; font-size: 2vw; line-height: 4vw; bottom: 7vw;}
     .clickBtn .light {padding: 1vw 3vw;}
     .leftWrap .circle3 {left: 49%;}
     .calc_container .calculator {height: 54vw;}
@@ -206,9 +206,9 @@
     #section12 .contact .contactForm textarea {height: 30vw; padding-left: 2.5em;}
     #section12 .contact .contactForm .submitBtn {width: 15vw; height: 6vw; font-size: 2.5vw;}
     #section12 .info .info1 {flex-basis: 100%; padding-left: 0; margin-right: 3vw;}
-    #section12 .info .info2 {flex-basis: 100%; text-align: center; }
+    #section12 .info .info2 {flex-basis: 100%; text-align: center; padding-left: 10vw;}
     #section12 .info .myinfo li {font-size: 3vw;}
-    #section12 .info h2 {margin-bottom: 20vw; font-size: 4.5vw;}
+    #section12 .info h2 {width: 42vw; margin-bottom: 20vw; font-size: 4.5vw; padding-left: 8vw;}
     #section12 .info h2 span {width: 15vw; height: 9vw; background-size: 14vw;}
 } 
 
