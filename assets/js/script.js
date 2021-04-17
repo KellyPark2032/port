@@ -190,16 +190,16 @@ $(window).scroll(function(){
   if( scroll > $('#section8').offset().top-250){
     gsap.to("#section8 .chrc .reveal", { duration: 1,  opacity:1, stagger:0.03,  rotate:0, delay:0.2, ease: Sine.easeOut,x:0, y: 0});
   };
-  if( scroll > $('#section9').offset().top-350){
+  if( scroll > $('#section9').offset().top-380){
     gsap.to("#section9 .chrc .reveal", { duration: 1,  opacity:1, stagger:0.03,  rotate:0, delay:0.2, ease: Sine.easeOut,x:0, y: 0});
   };
-  if( scroll > $('#section10').offset().top-350){
+  if( scroll > $('#section10').offset().top-380){
     gsap.to("#section10 .chrc .reveal", { duration: 1,  opacity:1, stagger:0.03,  rotate:0, delay:0.2, ease: Sine.easeOut,x:0, y: 0});
   };
-  if( scroll > $('#section11').offset().top-350){
+  if( scroll > $('#section11').offset().top-380){
     gsap.to("#section11 .chrc .reveal", { duration: 1,  opacity:1, stagger:0.03,  rotate:0, delay:0.2, ease: Sine.easeOut,x:0, y: 0});
   };
-  if( scroll > $('#section12').offset().top-350){
+  if( scroll > $('#section12').offset().top-380){
     gsap.to("#section12 .reveal form", { duration: 1,  opacity:1, stagger:0.03,  rotate:0, delay:0.2, ease: Sine.easeOut,x:0, y: 0});
     gsap.to("#section12 .reveal .info1", { duration: 1,  opacity:1, stagger:0.03,  rotate:0, delay:1.2, ease: Sine.easeOut,x:0, y: 0});
     gsap.to("#section12 .reveal .info2", { duration: 1,  opacity:1, stagger:0.03,  rotate:0, delay:1.2, ease: Sine.easeOut,x:0, y: 0});
