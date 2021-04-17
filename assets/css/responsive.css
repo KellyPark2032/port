@@ -1,8 +1,4 @@
 /* @media */
-@media screen and (max-width: 1290px) { } 
-
-@media screen and (max-width: 1024px) { } 
-
 @media screen and (max-width: 960px){
  .chrc h3.animation { bottom: 8.5vw; } 
  }
@@ -17,7 +13,6 @@
     .star2 {display: none;}
     .triangle2 {display: none;}
     .circle2 {display: none;}
-    .circle3 {left: 23.5vw;}
     .square2 {display: none;}
     #section8 .wideBox2 .square { display: none;} 
     #section8 .square3 {display: block; } 
@@ -74,8 +69,7 @@
     .rightWrap .minLineLeft::after { width: 1px; } 
     .leftWrap .minLineLeft::before { width: 1px; } 
     .leftWrap .minLineLeft::after { width: 1px; } 
-    .leftWrap .circle3 { width: 2vw; left: 48vw; } 
-    .content_wrap .circle3 {display: none;}
+    .circle3 {display: block; left: 49%; } 
     .content_wrap .minLineLeft {display: none;}
     .clickBtn .light {font-size: 2vw; padding: 0.5vw 2vw;}
     .clickBtn div {width: 40%;}
@@ -106,25 +100,29 @@
 @media (max-width: 600px) { 
     .home-wrap {height: 80vw;}
     #section1 .smile img {margin: 6vw auto;}
-    .leftWrap .circle3 {left: 47.8vw;}
     .chrc h3 {line-height: 4vw; font-size: 3vw; bottom: 4vw; left: 5vw;}
     .chrc p {line-height: 2.8vw; font-size: 1.8vw; bottom: 4vw; left: 5vw;}
     .goSite {left: 5vw; bottom: 6vw;}
     .wrap2 {height: 76vw;}
-    button.learn-more {padding: 1.5vw 3vw;}
-    .drum_container h3 {transform: scale(1.5);}
-    .drum_container .drum_keys {transform: scale(1.1); height: 25vw; margin: 7vw auto; padding-top: 2vw;}
     .content_wrap {height: 56vw;}
     .content_smallWrap {height: 28vw;}
-    .wrappingSmall {height: 56vw;}
     .animateWrap {height: 40vw;}
     .chrc h3.animation {bottom: 16vw;}
     .animateWrap .chrc p {font-size: 1.8vw; bottom: 5vw; width: 80%;}
+    
+    button.learn-more {padding: 1.5vw 3vw;}
+    /* 
+    .drum_container h3 {transform: scale(1.5);}
+    .drum_container .drum_keys {transform: scale(1.1); height: 25vw; margin: 7vw auto; padding-top: 2vw;}
+    .wrappingSmall {height: 56vw;}
     .calc_container .calculator {height: 48vw;}
     .calc_container .calc_operator, .calc_number, .calc_empty {width: 4vw; height: 4vw; margin: 1.5vw 2.5vw;}
     .calc_container .calc_operator span{position: relative; top: -0.5vw;}
     .memory-game {height: 46vw;}
-    .scriptInner p {bottom: 8vw;}
+    .scriptInner p {bottom: 8vw;} 
+    */
+    #ScriptsCon {display:none; }
+    #script {display:none; }
     #section12 .contact {width: 70%;}
     ul.nacc li#tab2 {height: 45vw; width: 103%;}
     #section12 .contact h3 {font-size: 4vw; margin-bottom: 8vw;}
@@ -160,7 +158,6 @@
     .scriptInner h3 br {display: none;}
     .scriptInner p {width: 55%; font-size: 2.8vw; line-height: 4vw; bottom: 6vw;}
     .clickBtn .light {padding: 1vw 3vw;}
-    .leftWrap .circle3 {left: 47.5vw;}
     .calc_container .calculator {height: 54vw;}
     .calculator .keyboard {padding-top: 6.3vw;}
     .calc_container .calc_operator, .calc_number, .calc_empty {width: 4.2vw; height: 4.2vw; margin: 1.5vw 2.4vw;}

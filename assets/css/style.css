@@ -351,50 +351,6 @@
     bottom: 45px;
 }
 
-/* .star */
-.star {
-    z-index: 101;
-    position: absolute;
-    width: 2vw;
-    height: 2vw;
-    bottom: -0.9vw;
-    left: -0.9vw;
-}
-.star2 {
-    z-index: 101;
-    position: absolute;
-    width: 2vw;
-    height: 2vw;
-    bottom: -0.9vw;
-    right: 0vw;
-}
-.star-top {
-    z-index: 101;
-    position: absolute;
-    width: 2vw;
-    height: 2vw;
-    left: -0.9vw;
-    bottom: 46%;
-    transform: translateY(-46%);
-}
-.star-mid {
-    z-index: 101;
-    position: absolute;
-    width: 2vw;
-    height: 2vw;
-    bottom: -0.9vw;
-    left: 48.3%;
-}
-.star span, .star2 span, .star-top span, .star-mid span {
-    position: absolute;
-    width: inherit;
-    height: inherit;
-    background: url(../images/Star\ 22.svg) center no-repeat;
-    background-size: 50%;
-    opacity: 0;
-    transform: translateY(-20px);
-}
-
 /* section1 */
 
 #section1 .title {
@@ -505,61 +461,6 @@
 #section2 .chrc h3 .icon2 {
     background: url(../images/award-48\ 1.png) center center no-repeat;
     background-size: 2vw;
-}
-
-/* .triangle */
-.triangle {
-    z-index: 101;
-    position: absolute;
-    width: 2vw;
-    height: 2vw;
-    bottom: -1vw;
-    left: -0.9vw;
-}
-.triangle1 {
-    display: none;
-    z-index: 101;
-    position: absolute;
-    width: 2vw;
-    height: 2vw;
-    bottom: -1vw;
-    left: 46.2%;
-    transform: translateX(46.5%);
-}
-.triangle2 {
-    z-index: 101;
-    position: absolute;
-    width: 2vw;
-    height: 2vw;
-    bottom: -1vw;
-    right: 0vw;
-}
-.triangle4 {
-    z-index: 101;
-    position: absolute;
-    width: 2vw;
-    height: 2vw;
-    bottom: -1vw;
-    left: 33.3%;
-    transform: translate(-40%);
-}
-.triangle5 {
-    z-index: 101;
-    position: absolute;
-    width: 2vw;
-    height: 2vw;
-    bottom: -1vw;
-    left: 66.5%;
-    transform: translate(-40%);
-}
-.triangle span, .triangle1 span, .triangle2 span, .triangle4 span, .triangle5 span {
-    position: absolute;
-    width: inherit;
-    height: inherit;
-    background: url(../images/Polygon\ 8.svg) center no-repeat;
-    background-size: 40%;
-    opacity: 0;
-    transform: translateY(-20px);
 }
 
 /* content (front and back) */
@@ -817,59 +718,6 @@
     background: url(../images/arrow3.svg) bottom 0.1vw center no-repeat;
     background-size: 1.5vw;
 }
-
-/* .circle */
-.circle {
-    z-index: 101;
-    position: absolute;
-    width: 2vw;
-    height: 2vw;
-    bottom: -0.9vw;
-    left: -1vw;
-}
-.circle1 {
-    z-index: 101;
-    position: absolute;
-    width: 2vw;
-    height: 2vw;
-    bottom: -1vw;
-    left: 46.2%;
-    transform: translateX(46.5%);
-}
-.circle2 {
-    z-index: 101;
-    position: absolute;
-    width: 2vw;
-    height: 2vw;
-    bottom: -0.9vw;
-    right: -0vw;
-}
-.circle3 {
-    z-index: 101;
-    position: absolute;
-    width: 2vw;
-    height: 2vw;
-    bottom: -1vw;
-    left: 24vw;
-}
-.circle-top {
-    z-index: 101;
-    position: absolute;
-    width: 2vw;
-    height: 2vw;
-    left: -0.9vw;
-    bottom: 46%;
-    transform: translateY(-46%);
-}
-.circle span, .circle1 span, .circle2 span, .circle3 span, .circle-top span {
-    position: absolute;
-    width: inherit;
-    height: inherit;
-    background: url(../images/circle.svg) center no-repeat;
-    background-size: 30%;
-    opacity: 0;
-    transform: translateY(-20px);
-}
 .rightWrap .minLineLeft::before {
     width: 0;
 }
@@ -878,9 +726,6 @@
     width: 0;
 }
 
-.leftWrap .circle3 {
-    width: 0vw;
-}
 
 .leftWrap .minLineLeft::before {
     width: 0;
@@ -1139,6 +984,7 @@ button.learn-more::before {
 #section5 .chrc .color {
     background: rgba(212, 215, 209, 0.5);
 }
+#section5 .circle3 {display: block;}
 
 /* section6 */
 #section6 .chrc h3 span.icon1 {
@@ -1155,59 +1001,6 @@ button.learn-more::before {
     background: rgba(204, 190, 203, 0.5);
 }
 
-/* .square */
-.square {
-    z-index: 101;
-    position: absolute;
-    width: 2vw;
-    height: 2vw;
-    bottom: -0.9vw;
-    left: -0.9vw;
-}
-.square2 {
-    z-index: 101;
-    position: absolute;
-    width: 2vw;
-    height: 2vw;
-    bottom: -0.9vw;
-    right: 0vw;
-}
-.square3 {
-    z-index: 101;
-    position: absolute;
-    width: 2vw;
-    height: 2vw;
-    bottom: -1vw;
-    left: 50%;
-    transform: translate(-45%);
-}
-.square4 {
-    z-index: 101;
-    position: absolute;
-    width: 2vw;
-    height: 2vw;
-    bottom: -1vw;
-    left: 33.3%;
-    transform: translate(-45%);
-}
-.square5 {
-    z-index: 101;
-    position: absolute;
-    width: 2vw;
-    height: 2vw;
-    bottom: -1vw;
-    left: 66.5%;
-    transform: translate(-45%);
-}
-.square span, .square2 span, .square3 span, .square4 span, .square5 span {
-    position: absolute;
-    width: inherit;
-    height: inherit;
-    background: url(../images/square.svg) center no-repeat;
-    background-size: 30%;
-    opacity: 0;
-    transform: translateY(-20px);
-}
 .clickBtn {
     display: flex;
     position: absolute;
