@@ -163,6 +163,7 @@ body { background: #F8F4F0; overflow-x: hidden; border-top: 1px solid #000; }
 #section4 .chrc h3 span.icon1 { background: url(../images/arrow4.svg) bottom 0.1vw center no-repeat; background-size: 1.5vw; } 
 #section4 .chrc h3 span.icon2 { background: url(../images/arrow1.svg) bottom center no-repeat; background-size: 1.5vw; } 
 #section4 .right .circle1 { left: 46.2%; transform: translateX(46.5%); } 
+#section4 .right .circle3 {display: none;} 
 #section4 .left .chrc .color { background: rgba(245, 205, 203, 0.5); } 
 
 .goSite { position: absolute; bottom: 3vw; left: 3vw; line-height: 1.5; display: flex; align-items: center; justify-content: center; margin: 0px; } 
@@ -208,6 +209,7 @@ button.learn-more::before { position: absolute; content: ""; top: 0; left: 0; ri
 #section5 .chrc h3 span.icon1 { background: url(../images/arrow4.svg) bottom 0.1vw center no-repeat; background-size: 1.5vw; } 
 #section5 .chrc h3 span.icon2 { background: url(../images/arrow1.svg) bottom center no-repeat; background-size: 1.5vw; } 
 #section5 .chrc .color { background: rgba(212, 215, 209, 0.5); } 
+#section5 .right .circle3 {display: none;} 
 
 /* section6 */
 #section6 .chrc h3 span.icon1 { background: url(../images/arrow3.svg) bottom 0.1vw center no-repeat; background-size: 1.5vw; } 
@@ -271,9 +273,9 @@ small { font-size: 1vw; }
 /* script2 .memory-card */
 .memory-card:active { transform: scale(0.67); transition: transform .3s; } 
 .memory-card.flip { transform: rotateY(180deg); } 
-.front-face { width: 60%; height: 60%; position: absolute; left: 18%; top: 25%; backface-visibility: hidden; transition: transform .3s; transform: rotateY(180deg); } 
-.backBehind { width: 100%; height: 106%; left: 0vw; top: 0vw; position: absolute; backface-visibility: hidden; transform: scale(1); } 
-.back-face { width: 42%; height: 45%; top: 50%; left: 50%; transform: translate(-50%, -50%); position: absolute; backface-visibility: hidden; } 
+.front-face { width: 60%; height: 60%; position: absolute; left: 18%; top: 25%; backface-visibility: hidden; transform-style: preserve-3d; transition: transform .3s; transform: rotateY(180deg); } 
+.backBehind { width: 100%; height: 106%; left: 0vw; top: 0vw; position: absolute; backface-visibility: hidden; transform-style: preserve-3d; transform: scale(1); } 
+.back-face { width: 42%; height: 45%; top: 50%; left: 50%; transform: translate(-50%, -50%); position: absolute; backface-visibility: hidden; transform-style: preserve-3d; } 
 .backBehind:hover { background-color:rgba(243, 228, 213, 1) } 
 .tabMenu { position: relative; width: 90%; height: 80%; top: 50%; left: 50%; transform: translate(-50%, -50%); overflow: hidden; } 
 .tabBar { overflow: hidden; position: relative; display: flex; justify-content: center; align-items: center; height: 2vw; font-size: 2vw; width: 100%; padding-top: 0.1vw; padding-bottom: 0.1vw; } 
