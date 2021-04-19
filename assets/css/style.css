@@ -1658,7 +1658,7 @@ only screen and (min-resolution: 3dppx) {
 }
 
 #section2 .mypic3 {
-    background: url(../images/kelly2.jpg) center;
+    background: url(../images/kelly1.png) center;
     background-size: cover;
 }
 
@@ -1666,7 +1666,7 @@ only screen and (min-resolution: 3dppx) {
 only screen and (min-device-pixel-ratio: 2),
 only screen and (min-resolution: 2dppx) {
     #section2 .mypic3 {
-        background: url(../images/kelly2@2x.jpg) center;
+        background: url(../images/kelly1@2x.png) center;
         background-size: cover;
     }
 }
@@ -1675,7 +1675,7 @@ only screen and (min-resolution: 2dppx) {
 only screen and (min-device-pixel-ratio: 3),
 only screen and (min-resolution: 3dppx) {
     #section2 .mypic3 {
-        background: url(../images/kelly2@3x.png) center;
+        background: url(../images/kelly1@3x.png) center;
         background-size: cover;
     }
 }

@@ -183,10 +183,10 @@ $(window).scroll(function(){
     gsap.to("#section6 .chrc .reveal", { duration: 1, opacity:1, stagger:0.03, delay:0.2, ease: Sine.easeOut, x:0, y: 0});
     gsap.to("#section6 .circle span, #section6 .circle2 span, #section6 .circle3 span, #section6 .circle-top span", { duration: 1, opacity:1, stagger:0.03, delay:0.2, ease: Sine.easeOut, x:0, y: 0});
   }
-  if( scroll > $("#section7").offset().top - $(window).height()/2 ){
-    gsap.to("#section7 .chrc .reveal", { duration: 1, opacity:1, stagger:0.03, delay:0.2, ease: Sine.easeOut, x:0, y: 0});
-    gsap.to("#section7 .circle span, #section7 .circle2 span, #section7 .circle3 span, #section7 .circle-top span", { duration: 1, opacity:1, stagger:0.03, delay:0.2, ease: Sine.easeOut, x:0, y: 0});
-  }
+  // if( scroll > $("#section7").offset().top - $(window).height()/2 ){
+  //   gsap.to("#section7 .chrc .reveal", { duration: 1, opacity:1, stagger:0.03, delay:0.2, ease: Sine.easeOut, x:0, y: 0});
+  //   gsap.to("#section7 .circle span, #section7 .circle2 span, #section7 .circle3 span, #section7 .circle-top span", { duration: 1, opacity:1, stagger:0.03, delay:0.2, ease: Sine.easeOut, x:0, y: 0});
+  // }
   if( scroll > $("#ScriptsCon").offset().top - $(window).height()/2 ){
     gsap.to("#ScriptsCon .triangle span, #ScriptsCon .triangle2 span", { duration: 1, opacity:1, stagger:0.03, delay:0.2, ease: Sine.easeOut, x:0, y: 0});
   }
