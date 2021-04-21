@@ -224,6 +224,7 @@
     text-align: justify;
     bottom: 2vw;
     margin-top: 5%;
+    letter-spacing: -0.05vw;
 }
 
 /* skip */
@@ -947,7 +948,7 @@ button.learn-more::before {
     display: inline-block;
     font-weight: 400;
     font-size: x-small;
-    margin-top: 0.3vw;
+    margin-top: 0.4vw;
     left: 5%;
 }
 
@@ -1034,7 +1035,7 @@ button.learn-more::before {
     font-size: 1vw;
     font-weight: 400;
     text-transform: uppercase;
-    padding: 0.5vw 1vw;
+    padding: 1vw 1.5vw;
     background: #F8F4F0;
     border-radius: 0.75em;
     transform-style: preserve-3d;
@@ -1070,7 +1071,7 @@ button.learn-more::before {
 
 .clickBtn .returnGame:hover::before {
     box-shadow: 0 0 0 1px #FD7173, 0 0.5em 0 0 #fa8486;
-    transform: translate3d(0, 0.5em, -0.5em);
+    transform: translate3d(0, 0.5em, -0.2em);
 }
 
 .clickBtn .returnGame:active {
@@ -1100,7 +1101,7 @@ button.learn-more::before {
 
 .clickBtn .viewCode:hover::before {
     box-shadow: 0 0 0 1px #FED177, 0 0.5em 0 0 #fbdc9e;
-    transform: translate3d(0, 0.5em, -0.5em);
+    transform: translate3d(0, 0.5em, -0.2em);
 }
 
 .clickBtn .viewCode:active {
@@ -1633,12 +1634,10 @@ only screen and (min-resolution: 3dppx) {
         background-size: cover;
     }
 }
-
 #section2 .mypic2 {
     background: url(../images/kelly5.png) center;
     background-size: cover;
 }
-
 @media only screen and (-webkit-min-device-pixel-ratio: 2),
 only screen and (min-device-pixel-ratio: 2),
 only screen and (min-resolution: 2dppx) {
@@ -1647,7 +1646,6 @@ only screen and (min-resolution: 2dppx) {
         background-size: cover;
     }
 }
-
 @media only screen and (-webkit-min-device-pixel-ratio: 3),
 only screen and (min-device-pixel-ratio: 3),
 only screen and (min-resolution: 3dppx) {
@@ -1661,7 +1659,6 @@ only screen and (min-resolution: 3dppx) {
     background: url(../images/kelly1.png) center;
     background-size: cover;
 }
-
 @media only screen and (-webkit-min-device-pixel-ratio: 2),
 only screen and (min-device-pixel-ratio: 2),
 only screen and (min-resolution: 2dppx) {
@@ -1670,7 +1667,6 @@ only screen and (min-resolution: 2dppx) {
         background-size: cover;
     }
 }
-
 @media only screen and (-webkit-min-device-pixel-ratio: 3),
 only screen and (min-device-pixel-ratio: 3),
 only screen and (min-resolution: 3dppx) {
@@ -1680,7 +1676,7 @@ only screen and (min-resolution: 3dppx) {
     }
 }
 
-#section4 .photo {
+#section4 .mypic1 {
     background: url(../images/standard@1x.png)center;
     background-size: cover;
 }
@@ -1688,7 +1684,7 @@ only screen and (min-resolution: 3dppx) {
 @media only screen and (-webkit-min-device-pixel-ratio: 2),
 only screen and (min-device-pixel-ratio: 2),
 only screen and (min-resolution: 2dppx) {
-    #section4 .photo {
+    #section4 .mypic1 {
         background: url(../images/standard@2x.png)center;
         background-size: cover;
     }
@@ -1697,11 +1693,58 @@ only screen and (min-resolution: 2dppx) {
 @media only screen and (-webkit-min-device-pixel-ratio: 3),
 only screen and (min-device-pixel-ratio: 3),
 only screen and (min-resolution: 3dppx) {
-    #section4 .photo {
+    #section4 .mypic1 {
         background: url(../images/standard@3x.png)center;
         background-size: cover;
     }
 }
+
+#section4 .mypic2 {
+    background: url(../images/standard2@1x.png)right;
+    background-size: cover;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2),
+only screen and (min-resolution: 2dppx) {
+    #section4 .mypic2 {
+        background: url(../images/standard2@2x.png)right;
+        background-size: cover;
+    }
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 3),
+only screen and (min-device-pixel-ratio: 3),
+only screen and (min-resolution: 3dppx) {
+    #section4 .mypic2 {
+        background: url(../images/standard2@3x.png)right;
+        background-size: cover;
+    }
+}
+
+#section4 .mypic3 {
+    background: url(../images/standard3@1x.png)center;
+    background-size: cover;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2),
+only screen and (min-resolution: 2dppx) {
+    #section4 .mypic3 {
+        background: url(../images/standard3@2x.png)center;
+        background-size: cover;
+    }
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 3),
+only screen and (min-device-pixel-ratio: 3),
+only screen and (min-resolution: 3dppx) {
+    #section4 .mypic3 {
+        background: url(../images/standard3@3x.png)center;
+        background-size: cover;
+    }
+}
+
 
 #section5 .photo_box {
     background: url(../images/mobile.png)center;
@@ -1726,7 +1769,7 @@ only screen and (min-resolution: 3dppx) {
     }
 }
 
-#section5 .photo {
+#section5 .mypic1 {
     background: url(../images/responsive@1x.png)center;
     background-size: cover;
 }
@@ -1734,7 +1777,7 @@ only screen and (min-resolution: 3dppx) {
 @media only screen and (-webkit-min-device-pixel-ratio: 2),
 only screen and (min-device-pixel-ratio: 2),
 only screen and (min-resolution: 2dppx) {
-    #section5 .photo {
+    #section5 .mypic1 {
         background: url(../images/responsive@2x.png)center;
         background-size: cover;
     }
@@ -1743,22 +1786,22 @@ only screen and (min-resolution: 2dppx) {
 @media only screen and (-webkit-min-device-pixel-ratio: 3),
 only screen and (min-device-pixel-ratio: 3),
 only screen and (min-resolution: 3dppx) {
-    #section5 .photo {
+    #section5 .mypic1 {
         background: url(../images/responsive@3x.png)center;
         background-size: cover;
     }
 }
 
-#section6 .photo {
-    background: url(../images/mega@1x.png)center;
+#section5 .mypic2 {
+    background: url(../images/responsive2@1x.png)center;
     background-size: cover;
 }
 
 @media only screen and (-webkit-min-device-pixel-ratio: 2),
 only screen and (min-device-pixel-ratio: 2),
 only screen and (min-resolution: 2dppx) {
-    #section6 .photo {
-        background: url(../images/mega@2x.png)center;
+    #section5 .mypic2 {
+        background: url(../images/responsive2@2x.png)center;
         background-size: cover;
     }
 }
@@ -1766,13 +1809,99 @@ only screen and (min-resolution: 2dppx) {
 @media only screen and (-webkit-min-device-pixel-ratio: 3),
 only screen and (min-device-pixel-ratio: 3),
 only screen and (min-resolution: 3dppx) {
-    #section6 .photo {
+    #section5 .mypic2 {
+        background: url(../images/responsive2@3x.png)center;
+        background-size: cover;
+    }
+}
+
+#section5 .mypic3 {
+    background: url(../images/responsive3@1x.png)center;
+    background-size: cover;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2),
+only screen and (min-resolution: 2dppx) {
+    #section5 .mypic3 {
+        background: url(../images/responsive3@2x.png)center;
+        background-size: cover;
+    }
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 3),
+only screen and (min-device-pixel-ratio: 3),
+only screen and (min-resolution: 3dppx) {
+    #section5 .mypic3 {
+        background: url(../images/responsive3@3x.png)center;
+        background-size: cover;
+    }
+}
+
+#section6 .mypic1 {
+    background: url(../images/mega@1x.png)center;
+    background-size: cover;
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2),
+only screen and (min-resolution: 2dppx) {
+    #section6 .mypic1 {
+        background: url(../images/mega@2x.png)center;
+        background-size: cover;
+    }
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 3),
+only screen and (min-device-pixel-ratio: 3),
+only screen and (min-resolution: 3dppx) {
+    #section6 .mypic1 {
         background: url(../images/mega@3x.png)center;
         background-size: cover;
     }
 }
 
-#section7 .photo {
+#section6 .mypic2 {
+    background: url(../images/mega2@1x.png)center;
+    background-size: cover;
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2),
+only screen and (min-resolution: 2dppx) {
+    #section6 .mypic2 {
+        background: url(../images/mega2@2x.png)center;
+        background-size: cover;
+    }
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 3),
+only screen and (min-device-pixel-ratio: 3),
+only screen and (min-resolution: 3dppx) {
+    #section6 .mypic2 {
+        background: url(../images/mega2@3x.png)center;
+        background-size: cover;
+    }
+}
+
+#section6 .mypic3 {
+    background: url(../images/mega3@1x.png)center;
+    background-size: cover;
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2),
+only screen and (min-resolution: 2dppx) {
+    #section6 .mypic3 {
+        background: url(../images/mega3@2x.png)center;
+        background-size: cover;
+    }
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 3),
+only screen and (min-device-pixel-ratio: 3),
+only screen and (min-resolution: 3dppx) {
+    #section6 .mypic3 {
+        background: url(../images/mega3@3x.png)center;
+        background-size: cover;
+    }
+}
+
+/* #section7 .photo {
     background: url(../images/standard@1x.png)center;
     background-size: cover;
 }
@@ -1816,4 +1945,4 @@ only screen and (min-resolution: 3dppx) {
         background: url(../images/mobile@3x.png)center;
         background-size: cover;
     }
-}
+} */
