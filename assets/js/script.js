@@ -1,3 +1,10 @@
+/* preloading page */
+$(document).ready(function(){
+  setTimeout(function(){
+    $('body').addClass('loaded');
+  }, 3500);
+});
+
 /* overlay menu */
 $(".navBtn").click(function (e) {
     e.preventDefault();
@@ -151,10 +158,10 @@ $(".split").each(function() {
 });
 
 setTimeout(function(){
-  gsap.to("#section1 .title h2 span", {opacity: 1, stagger: 0.05, y:0, duration: 0.2})
-  gsap.to("#section1 .title strong span", {opacity: 1, stagger: 0.05, y:0, duration: 0.2, delay: 0.5})
+  gsap.to("#section1 .title h2 span", {opacity: 1, stagger: 0.05, y:0, duration: 0.3})
+  gsap.to("#section1 .title strong span", {opacity: 1, stagger: 0.05, y:0, duration: 0.3, delay: 0.5})
   gsap.to("#section1 .star span, .star2 span, .star-top span, .star-mid span", { duration: 1, opacity:1, stagger:0.03, delay:0.1, x:0, y: 0});
-},2000)
+},5000)
 
 $(window).scroll(function(){
   let scroll = $(window).scrollTop();
