@@ -201,7 +201,7 @@ $(window).scroll(function(){
     gsap.to(".script1 .triangle span, .script1 .triangle2 span", { duration: 1, opacity:1, stagger:0.03, delay:0.2, ease: Sine.easeOut, x:0, y: 0});
   }
   if( scroll > $(".script2").offset().top - $(window).height()/2 ){
-    gsap.to(".script2 .triangle span, .script2 .triangle2 span", { duration: 1, opacity:1, stagger:0.03, delay:0.2, ease: Sine.easeOut, x:0, y: 0});
+    gsap.to(".script2 .wrappingSmall .triangle span, .script2 .wrappingSmall .triangle2 span", { duration: 1, opacity:1, stagger:0.03, delay:0.2, ease: Sine.easeOut, x:0, y: 0});
   }
   if( scroll > $(".script3").offset().top - $(window).height()/2 ){
     gsap.to(".script3 .triangle span, .script3 .triangle2 span", { duration: 1, opacity:1, stagger:0.03, delay:0.2, ease: Sine.easeOut, x:0, y: 0});

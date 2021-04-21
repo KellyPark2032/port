@@ -178,6 +178,7 @@ img { width: 100%; }
     opacity: 0;
     transform: translateY(-20px);
 }
+.script2 .content_wrap .triangle span, .script2 .content_wrap .triangle2 span {opacity: 1; transform :translateY(0);}
 
 /* .circle */
 .circle {
