@@ -1,107 +1,59 @@
 /* layout */
 #loader-wrapper {
     position: absolute;
-    display: grid;
-    margin: 0;
-    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 100%;
+    height: 100%;
+  }
+
+.loader {
+display: flex;
+width: 220px;
+height: 4px;
+background: #bd9658;
+overflow: hidden;
+z-index: 1000000;
 }
 
-#loader-wrapper .loader {
-  z-index: 10000000;
-  display: grid;
-  grid-template-columns: 50px 50px;
-  grid-template-rows: 50px 50px;
-  justify-content: center;
-  align-content: center;
+.loader-line {
+    height: 4px;
+    background: #724710;
+    // border-left: 6px solid #fff;
+    // border-right: 6px solid #fff;
+    // box-sizing: border-box;
 }
+.a-loop {
+animation: 1.7s infinite loop cubic-bezier(0.42, 0, 0.58, 1);
+}
+@keyframes loop {
+    0% {
+      width: 0%;
+      transform: translateX(0%);
+    }
+    7% {
+      width: 10%;
+      transform: translateX(0%);
+    }
+    40% {
+      width: 60%;
+    }
+    50% {
+      transform: translateX(85%);
+    }
 
-.lodingCube {
-  animation-duration: 4s;
-  animation-iteration-count: infinite;
-  animation-timing-function: ease;
-}
+    75% {
+      width: 100%;
+    }
+    100% {
+      transform: translateX(100%);
+    }
+  }
 
-#cube1 {
-  background: #ffd5cd;
-  animation-name: moveCube1;
-}
-#cube2 {
-  background: #efbbcf;
-  animation-name: moveCube2;
-}
-#cube3 {
-  background: #c3aed6;
-  animation-name: moveCube3;
-}
-#cube4 {
-  background: #8675a9;
-  animation-name: moveCube4;
-  animation-delay: 0.1s;
-}
-
-/** Animation-Keyframes **/
-@keyframes moveCube1 {
-  0% {
-    transform: translate(0%, 0%);
-  }
-  25% {
-    transform: translate(100%, 0%);
-  }
-  50% {
-    transform: translate(100%, 100%);
-  }
-  75% {
-    transform: translate(0%, 100%);
-  }
-}
-
-@keyframes moveCube2 {
-  0% {
-    transform: translate(0%, 0%);
-  }
-  25% {
-    transform: translate(0%, 100%);
-  }
-  50% {
-    transform: translate(-100%, 100%);
-  }
-  75% {
-    transform: translate(-100%, 0%);
-  }
-}
-
-@keyframes moveCube3 {
-  0% {
-    transform: translate(0%, 0%);
-  }
-  25% {
-    transform: translate(0%, -100%);
-  }
-  50% {
-    transform: translate(100%, -100%);
-  }
-  75% {
-    transform: translate(100%, 0%);
-  }
-}
-
-@keyframes moveCube4 {
-  0% {
-    transform: translate(0%, 0%);
-  }
-  25% {
-    transform: translate(-100%, 0%);
-  }
-  50% {
-    transform: translate(-100%, -100%);
-  }
-  75% {
-    transform: translate(0%, -100%);
-  }
-}
-#loader-wrapper .loader-section {
+.loader-section {
     position: fixed;
+    display: flex;
     top: 0;
     width: 100%;
     height: 100%;
