@@ -1,5 +1,4 @@
 /* preloading page */
-//imageProgress
 imagesProgress(); 
 function imagesProgress(){
   var preload = $('.preload'),
