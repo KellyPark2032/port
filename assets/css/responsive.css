@@ -181,10 +181,11 @@
     #section12 .contact .contactForm input {height: 7vw; font-size: 2.3vw; padding-left: 2.5vw; margin-bottom: 5vw;}
     #section12 .contact .contactForm textarea {height: 30vw; padding-left: 2.5em;}
     #section12 .contact .contactForm .submitBtn {width: 15vw; height: 6vw; font-size: 2.5vw;}
+    #section12 .info {justify-content: center;}
     #section12 .info .info1 {flex-basis: 100%; padding-left: 0; margin-right: 3vw;}
     #section12 .info .info2 {flex-basis: 100%; text-align: center; }
     #section12 .info .myinfo li {font-size: 3vw;}
-    #section12 .info h2 {margin-bottom: 20vw; font-size: 4.5vw;}
+    #section12 .info h2 {width: 100%; margin-bottom: 20vw; font-size: 4.5vw;}
     #section12 .info h2 span {width: 15vw; height: 9vw; background-size: 14vw;}
 } 
 
